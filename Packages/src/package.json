@@ -1,13 +1,15 @@
 {
   "name": "com.oojjrs.oloc",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "displayName": "Oloc",
-  "description": "Country flag Sprite Atlas and serialized Sprite collection for localization.",
+  "description": "Country flag sprites, a Sprite Atlas and a serialized Sprite collection for localization.",
   "unity": "6000.0",
-  "dependencies": {
-    "com.unity.2d.sprite": "1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oojjrs/unity_oloc.git?path=/Packages/src"
   },
   "author": {
-    "name": "oojjrs"
+    "name": "oojjrs",
+    "email": "oojjrs@gmail.com"
   }
 }

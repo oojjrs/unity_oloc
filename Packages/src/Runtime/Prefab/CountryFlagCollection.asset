@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e6e4527ecb5db4c9a9cc048b1b5312, type: 3}
+  m_Name: CountryFlagCollection
+  m_EditorClassIdentifier: oojjrs.oloc::oojjrs.oloc.CountryFlagCollection
+  Sprites:
+  - {fileID: 21300000, guid: 54d5309c9eea9f7439536ecabe444ed9, type: 3}
+  - {fileID: 21300000, guid: bd9f7c4e8b470434c859092d39516194, type: 3}
+  - {fileID: 21300000, guid: e123d629018034847ac97d7f5ad3e7bc, type: 3}
+  - {fileID: 21300000, guid: f3e680319184ec049b3a9ec50bd536a2, type: 3}
+  - {fileID: 21300000, guid: f51a1c5c2816f0e42bd030ad6dc7b68c, type: 3}
+  - {fileID: 21300000, guid: de45c7208fe4ddf4ea959494a1b9c60e, type: 3}
+  - {fileID: 21300000, guid: f6ad92d2b6867704ab723de5b61663dd, type: 3}
+  - {fileID: 21300000, guid: e713b0c4508583f4b8b26affeff4d485, type: 3}
+  - {fileID: 21300000, guid: a24729a6d231c0e4ea9e3105ba8be89f, type: 3}
+  - {fileID: 21300000, guid: 710c432c38296b34eb5ede059909040f, type: 3}
+  - {fileID: 21300000, guid: 448a9e43bf977b44ebd1b8997b7c5fc4, type: 3}
+  - {fileID: 21300000, guid: ab7589c82af77c44cada4cc0ac734890, type: 3}
+  - {fileID: 21300000, guid: d1af2cfce12ed244881e7f7ad5b4299e, type: 3}
+  - {fileID: 21300000, guid: 9994d6f65287e194bb45ea777c487f0c, type: 3}
+  - {fileID: 21300000, guid: 13a1cf4baa216e343a737f8b1258c54c, type: 3}
+  - {fileID: 21300000, guid: db5db68dead075545be63883f7f03839, type: 3}
