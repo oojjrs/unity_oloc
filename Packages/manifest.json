@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "com.oojjrs.oloc": "file:src"
+  }
+}
