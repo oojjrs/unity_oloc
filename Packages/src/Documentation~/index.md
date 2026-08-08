@@ -1,4 +1,4 @@
-# OOJJRS' Oloc
+# OOJJRS' Localization
 
 국가별 국기 PNG 16종과 Sprite Atlas를 제공하고, `CountryFlagCollection`에는 직렬화된 `Sprite[]`만 보관합니다.
 
@@ -14,6 +14,11 @@
 `Runtime/Prefab/CountryFlagCollection.asset`의 `Sprites` 배열은 `BR, CN, DE, ES, FR, IT, JP, KR, MX, PL, RU, TH, TR, TW, UA, US` 순서입니다. Atlas에는 `Runtime/Sprites` 폴더가 이미 등록되어 있습니다.
 
 기본 컬렉션을 그대로 참조하거나 `Create > Oloc > Country Flag Collection`에서 별도 에셋을 만들어 원하는 순서로 Sprite를 지정할 수 있습니다. 패키지에 포함된 Unity `.meta`는 GUID를 고정하므로 함께 유지해야 합니다.
+
+## 1.0.2 변경 사항
+
+- Unity Package Manager 표시 이름을 패키지 역할을 직접 나타내는 `OOJJRS' Localization`으로 변경했습니다.
+- 호환성을 위해 패키지 ID `com.oojjrs.oloc`과 설치 URL은 유지합니다.
 
 ## 1.0.1 변경 사항
 
