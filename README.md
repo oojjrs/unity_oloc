@@ -1,6 +1,13 @@
-# Unity Oloc
+# OOJJRS' Oloc
 
 국가별 국기 PNG 16종과 Sprite Atlas, 직렬화된 `Sprite[]` 컬렉션을 제공하는 Unity 패키지입니다.
+
+## 패키지
+
+- 패키지 이름: `com.oojjrs.oloc`
+- 버전: `1.0.1`
+- Unity 버전: `6000.0` 이상
+- 패키지 경로: `Packages/src`
 
 | 구성 요소 | 종류 | 용도 |
 | --- | --- | --- |
@@ -20,5 +27,9 @@ https://github.com/oojjrs/unity_oloc.git?path=/Packages/src
 ## 사용
 
 `Runtime/Prefab/CountryFlagCollection.asset`에는 16개 Sprite가 국가 코드 알파벳순으로 지정되어 있습니다. 이 에셋을 그대로 참조하거나, `Create > Oloc > Country Flag Collection`에서 별도 컬렉션을 만들어 원하는 순서로 지정합니다.
+
+## 1.0.1 변경 사항
+
+- Unity Package Manager 표시 이름을 다른 OOJJRS 패키지와 같은 `OOJJRS' Oloc` 형식으로 통일했습니다.
 
 자세한 내용은 [패키지 문서](Packages/src/Documentation~/index.md)를 참고하세요.
