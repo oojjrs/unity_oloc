@@ -1,6 +1,6 @@
 {
   "name": "com.oojjrs.oloc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "OOJJRS' Localization",
   "description": "Country flag sprites, a Sprite Atlas and a serialized Sprite collection for localization.",
   "unity": "6000.0",

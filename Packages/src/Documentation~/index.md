@@ -1,19 +1,26 @@
 # OOJJRS' Localization
 
-국가별 국기 PNG 16종과 Sprite Atlas를 제공하고, `CountryFlagCollection`에는 직렬화된 `Sprite[]`만 보관합니다.
+국가별 국기 PNG 16종과 Sprite Atlas를 제공하고, `CountryFlagCollection`에는 직렬화된 `Sprite[]`와 국가 코드 조회 API를 제공합니다.
 
 | 경로 | 내용 |
 | --- | --- |
 | `Runtime/Sprites` | 투명 배경 256×256 RGBA PNG 16종 |
 | `Runtime/Atlas/Oloc.spriteatlasv2` | 국기 PNG를 묶는 Sprite Atlas 에셋 |
 | `Runtime/Prefab/CountryFlagCollection.asset` | 16개 국기 Sprite가 지정된 ScriptableObject 에셋 |
-| `Runtime/Scripts/CountryFlagCollection.cs` | 국기 Sprite 배열을 보관하는 ScriptableObject |
+| `Runtime/Scripts/CountryFlagCollection.cs` | 국기 Sprite 배열과 국가 코드 조회 함수를 제공하는 ScriptableObject |
 
 모든 PNG는 같은 256×256 캔버스를 사용하지만 국기 필드는 미국 19:10, 브라질 10:7, 독일 5:3, 폴란드 8:5, 멕시코 7:4, 나머지 11개 3:2의 비율을 유지합니다.
 
 `Runtime/Prefab/CountryFlagCollection.asset`의 `Sprites` 배열은 `BR, CN, DE, ES, FR, IT, JP, KR, MX, PL, RU, TH, TR, TW, UA, US` 순서입니다. Atlas에는 `Runtime/Sprites` 폴더가 이미 등록되어 있습니다.
 
+`GetFlagSprite(string countryOrLocaleCode)`는 `KR` 같은 국가 코드나 `ko-KR`, `zh-Hant-TW` 같은 로케일 코드의 마지막 지역 토큰을 받습니다. 배열 순서와 관계없이 Sprite 이름을 대소문자 구분 없이 비교해 국기를 찾으며, 일치하는 Sprite가 없으면 `null`을 반환합니다.
+
 기본 컬렉션을 그대로 참조하거나 `Create > Oloc > Country Flag Collection`에서 별도 에셋을 만들어 원하는 순서로 Sprite를 지정할 수 있습니다. 패키지에 포함된 Unity `.meta`는 GUID를 고정하므로 함께 유지해야 합니다.
+
+## 1.0.3 변경 사항
+
+- `CountryFlagCollection.GetFlagSprite(string)` 국가 코드 조회 API를 추가했습니다.
+- 국가 코드와 지역을 포함한 로케일 코드를 Sprite 이름으로 조회해 배열 순서 의존성을 제거했습니다.
 
 ## 1.0.2 변경 사항
 
